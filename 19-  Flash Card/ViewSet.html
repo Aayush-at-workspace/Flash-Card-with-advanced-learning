@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Flash Cards | View Sets</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="View and manage your flash card sets" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Style/ViewSet.css" />
+    </head>
+    <body>
+        <header class="heading">
+            <h1>Flash Card Sets</h1>
+            <div class="button-group">
+                <button class="add" onclick="addSet()" aria-label="Create new set">Add Set</button>
+                <button class="home" onclick="home()" aria-label="Return to home">Home</button>
+            </div>
+        </header>
+        <main class="main" role="list" aria-label="Flash card sets"></main>
+        <script src="Script/ViewSet.js"></script>
+    </body>
+</html>
